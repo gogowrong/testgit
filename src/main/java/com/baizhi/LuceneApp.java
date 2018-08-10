@@ -10,5 +10,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class LuceneApp {
     public static void main(String[] args) {
         SpringApplication.run(LuceneApp.class,args);
+        System.out.println("123");
     }
 }
